@@ -1,0 +1,81 @@
+/* 
+Developed By: Bronax N. Barlue
+*/
+
+.navigation .head {
+    display: grid;
+    place-items: center;
+    
+}
+
+.navigation .menu {
+    background-color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+
+.menu .link {
+    padding: 12px 8px;
+    
+}
+
+.menu .link:hover {
+    text-decoration: unset;
+    background-color: var(--dark-blue);
+}
+
+.menu img {
+    width: 18px;
+    height: 18px;
+    margin-left: 30px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropmenu {
+    position: absolute;
+    flex-direction: column;
+    width: 200px;
+    min-height: 250px;
+    background-color: white;
+    top: 34px;
+    display: none;
+}
+
+.dropdown:hover .dropmenu {
+    display: flex;
+}
+
+.dropdown .link {
+    padding-right: 22px;
+}
+
+.dropmenu .dropitems {
+    text-decoration: none;
+    color: black;
+    padding: 12px 0;
+    margin-left: 10px;
+}
+
+.dropitems:hover {
+    background-color: var(--dark-blue) ;
+    color: var(--white);
+    
+}
+
+/** CARET **/
+.caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid var(--white);
+    position: absolute;
+    top: 10px;
+    right: 2px;
+
+}

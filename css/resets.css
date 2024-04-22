@@ -1,0 +1,51 @@
+:root {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    --red: #b40909;
+    --blue: #1b3b6a;
+    --dark-blue: #051e3b;
+    --dark-gray: #4d4d4d;
+    --gray: #aaaaaa;
+    --light-gray: #e0e5ef;
+    --md-light-gray: #707070;
+    --white: #ffffff;
+
+    --font-sm: 14px;
+    --font-md: 16px;
+    --font-lg: 20px;
+
+    --space-sm: 8px;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    height: inherit;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button {
+    font: inherit;
+}
+
+p,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}

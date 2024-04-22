@@ -1,0 +1,52 @@
+/* 
+Developed By: Bronax N. Barlue
+*/
+
+.link {
+    text-decoration: unset;
+    color: var(--dark-blue);
+}
+
+.link:visited {
+    color: unset;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link.white {
+    color: var(--white);
+}
+
+.link.blue {
+    color: var(--dark-blue);
+}
+
+.link.primary {
+    color: var(--dark-blue);
+    font-weight: bolder;
+}
+
+.link.red {
+    color: var(--red);
+}
+
+.link.lg {
+    font-size: var(--font-lg);
+}
+
+.link.sm {
+    font-size: var(--font-sm);
+}
+
+.link.secondary {
+    color: var(--md-light-gray);
+    display: block;
+    margin-top: 17px;
+    border-bottom: thin solid var(--light-gray);
+}
+
+.link.secondary:hover {
+    color: var(--red);
+}

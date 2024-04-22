@@ -1,0 +1,181 @@
+/* SECTION CLASSES STYLES */
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+.sections {
+    max-width: 80vw;
+    margin: 3% auto;
+}
+
+
+
+.sections.banner {
+    background-color: var(--light-gray);
+}
+
+.banner .article {
+    padding: 12px;
+}
+
+.sections.flexrow>* {
+    flex: 2;
+}
+
+.sections.flexrow img {
+    height: 350px;
+}
+
+/** FLEX BOX & GRID **/
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.flexrow>* {
+    flex: 1;
+}
+
+.gridcol {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(3fr, auto);
+    gap: 20px;
+}
+
+.gridcol .cell {
+    display: flex;
+    background-color: var(--light-gray);
+    border-radius: 12px;
+    padding: 12px;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+}
+
+.cell .icon {
+    width: 70px;
+    max-height: 70px;
+    
+}
+
+.cell .link {
+    font-size: var(--font-md);
+    color: var(--red);
+
+}
+
+/** IMAGES **/
+.image {
+    max-width: 60%;
+}
+
+.image.lg {
+    min-width: 50%;
+    min-height: 350px;
+}
+
+.figure {
+    max-width: 270px;
+    background-color: var(--light-gray);
+    margin-right: 12px;
+}
+
+.figure img {
+    min-width: 100%;
+}
+
+.figure .caption {
+    line-height: 1.5;
+    text-align: center;
+}
+
+.caption.bold {
+    font-weight: bolder;
+}
+
+/** LINE **/
+
+.line {
+    display: block;
+    height: 6px;
+    background-color: var(--red);
+    max-width: 30%;
+    border: unset;
+    margin: 8px 0;
+}
+
+
+/** PARAGRAPH **/
+
+.header {
+    margin: 0 12px;
+}
+
+.paragraph {
+    color: var(--dark-gray);
+}
+
+.paragraph.secondary {
+    color: var(--dark-gray);
+}
+
+.paragraph.cap {
+    text-transform: uppercase;
+}
+
+/** STORY **/
+
+.story .article {
+    padding: 10px;
+}
+
+.story .inner {
+    margin-right: 12px;
+    border-right: thin solid var(--light-gray);
+}
+
+/** FOOTER **/
+.footer {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    position: relative;
+    margin-top: 10%;
+    padding: 5% 0 ;
+}
+
+.footer .flexrow > * {
+    flex: 2;
+}
+
+.footer .copyright{
+    margin-top: 4%;
+}
+
+.footer .row {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 15%;
+}
+
+.footer .icons {
+    display: flex;
+    gap: 12px;
+}
+
+.footer .icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer .floated {
+    position: absolute;
+    bottom: 94%;
+}
+
+.footer a {
+    color: var(--white);
+}
